@@ -1,10 +1,7 @@
 /* Base Styles */
 
 :root {
-    font-size: 10px;
-    
-    
-    
+    font-size: 10px;  
 }
 
 *,
@@ -19,6 +16,7 @@ body {
     color: #262626;
     padding-bottom: 3rem;
 }
+
 /* header section stlyes */
 header{
     display: flex;
@@ -26,6 +24,7 @@ header{
     justify-content:center;
     margin: 40px;
 }
+
 .profile{
     
     display: grid;
@@ -66,13 +65,11 @@ header{
     margin-right: 10px;
   }
 
-
 /* turning list into inline format */
 .profile-stats ul{
     display: flex;
     font-size:large;
     justify-content: space-between;
-    
 }
 /* gap between the list */
 .profile-stats li{
@@ -80,28 +77,25 @@ header{
 }
 
 .profile-bio span{
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 .profile-bio p{
     font-size: 15px;
 }
+
 /* end of header section */
 
 /* the beginning of the boddy  */
 .container{
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;    
 }
 /* targeting content in the gallery only the layout */
 .container .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap:2px;
-    max-width: 1200px;
-    
+    max-width: 1200px; 
 }
 /* Sorting the images layout  */
 .gallery-image{
